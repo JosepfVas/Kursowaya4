@@ -2,7 +2,7 @@ from src.ABCClass import AbstractJobApi
 import requests
 
 
-class HhRuJobApi(AbstractJobApi):
+class HHApi(AbstractJobApi):
     def __init__(self, access_token):
         self.access_token = access_token
         self.per_page = 100
